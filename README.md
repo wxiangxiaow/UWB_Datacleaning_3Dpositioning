@@ -1,7 +1,7 @@
 # UWB_Datacleaning_3Dpositioning
 A project for [2021 Mathematical modeling competition](https://cpipc.acge.org.cn//cw/detail/4/2c9080147c73b890017c7779e57e07d2) Problem E.
 
-![example](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/images/example.png)
+![example](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/blob/main/images/example.png)
 
 ### Data Format
 For raw UWB data, the correct data format should be:
@@ -29,18 +29,18 @@ For data cleaning, there are three options:
 1) LMS error estimation based on ensemble location model. ->task2_LMSE.py
 2) Gauss-Newton method for optimal positioning of three-dimensional position estimation model with residual optimization based on TOF ranging, including measurement accuracy calculation and trajectory prediction. ->task2N3_Gauss-Newton.py
 
-![3d](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/images/3d.png)
+![3d](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/blob/main/images/3d.png)
 
 ### Task 4: Distinguish interference data
 Code reference from [THIS](https://github.com/TerenceChen95/pneumonia-detection-pytorch)
 
 Use A simple (with only Linear, ReLU and dropout layers) Pytorch model to distinguish data. ->task4_train.py
 
-![net](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/images/net.png)
+![net](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/blob/main/images/net.png)
 
 
 
-![a](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/images/Adagrad+15.png)
+![a](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/blob/images/Adagrad+15.png)
 
 A test file is given. ->task4_predict.py
 ### Requirments
