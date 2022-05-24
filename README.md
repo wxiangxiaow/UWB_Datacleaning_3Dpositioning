@@ -23,8 +23,8 @@ For data cleaning, there are three options:
 3) All of abnormal data , similar data and same data are removed (when euclidean distance <= 18). ->task1_withsimilarNequal.py
 
 ### Task 2&3: 3D positioning and model applys on other environment
-1) LMS error estimation based on ensemble location model[1]. ->task2_LMSE.py
-2) Gauss-Newton method for optimal positioning of three-dimensional position estimation model with residual optimization based on TOF ranging, including measurement accuracy calculation and trajectory prediction[2]. ->task2N3_Gauss-Newton.py
+1) LMS error estimation based on ensemble location model. ->task2_LMSE.py
+2) Gauss-Newton method for optimal positioning of three-dimensional position estimation model with residual optimization based on TOF ranging, including measurement accuracy calculation and trajectory prediction. ->task2N3_Gauss-Newton.py
 
 ### Task 4: Distinguish interference data
 Code reference from [THIS](https://github.com/TerenceChen95/pneumonia-detection-pytorch)
@@ -33,7 +33,16 @@ Use A simple (with only Linear, ReLU and dropout layers) Pytorch model to distin
 
 A test file is given. ->task4_predict.py
 
---------
-[1]张旭. 基于超宽带雷达的机器人室内定位方法研究[D].北京建筑大学,2019.
-[2]
 
+### Requirments
+numpy
+
+matplotlib
+
+pandas
+
+torch
+
+
+### Reference
+[1]张旭. 基于超宽带雷达的机器人室内定位方法研究[D].北京建筑大学,2019.
