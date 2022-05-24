@@ -40,7 +40,7 @@ Use A simple (with only Linear, ReLU and dropout layers) Pytorch model to distin
 
 
 
-![a](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/blob/images/Adagrad+15.png)
+![a](https://github.com/wxiangxiaow/UWB_Datacleaning_3Dpositioning/blob/main/images/Adagrad+15.png)
 
 A test file is given. ->task4_predict.py
 ### Requirments
